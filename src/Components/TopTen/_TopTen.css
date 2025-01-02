@@ -1,0 +1,23 @@
+.TopTen {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    background-color: #f1f1f1;
+    text-align: left;
+    float : left;
+    width : 25%;
+    margin: 10px;
+
+}
+.title-header {
+    text-align: center;
+}
+
+.toptendata {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .TopTen {
+        width : 100%;
+    }   
+}
